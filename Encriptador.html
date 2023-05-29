@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador y Desencriptador</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="titulo">Encriptador/Desencriptador</h1>
+  <main class="main">
+    <section class="form box">
+      <form id="encriptar-texto">
+        <label class="encriptador" for="input-texto">Solo en minusculas, sin acentuacion:</label>
+        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui">
+        <input class="btn" type="submit" value="Encriptar" id="btn-encriptar">
+        <input class="btn" type="submit" value="Desencriptar" id="btn-desencriptar">
+      </form>
+    </section>
+    <section class="msg box">
+      <label id="title">Mensaje encriptado:</label>
+      <input class="text-input" type="text" id="msg"></input>
+      <input class="btn btn-copiar" type="submit" value="Copiar" id="btn-copy">
+    </section>
+  </main>
+    <footer class="footer">
+      <p>Desarrollado Analia Albornoz.</p>
+    </footer>
+  <script src="script.js"></script>
+  <script src="encriptar.js"></script>
+ </body>
+</html>
